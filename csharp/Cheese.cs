@@ -6,6 +6,10 @@
         {
             DecreaseSellIn(item);
             IncreaseQuality(item);
+            if (item.SellIn < 0)
+            {
+                IncreaseQuality(item);
+            }
         }
     }
 }
