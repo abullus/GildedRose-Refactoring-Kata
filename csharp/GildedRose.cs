@@ -85,5 +85,10 @@ namespace csharp
                 }
             }
         }
+
+        public void UpdateQuality2()
+        {
+            
+        }
     }
 }
