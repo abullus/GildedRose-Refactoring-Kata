@@ -7,6 +7,5 @@ namespace csharp
     public class GildedRoseTest
     {
         
-        
     }
 }
