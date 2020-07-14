@@ -62,9 +62,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApprovalTest.cs" />
+    <Compile Include="Cheese.cs" />
+    <Compile Include="ConcertTickets.cs" />
+    <Compile Include="Conjured.cs" />
+    <Compile Include="DefaultCategory.cs" />
+    <Compile Include="Category.cs" />
     <Compile Include="GildedRose.cs" />
     <Compile Include="GildedRoseTest.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="Legendary.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
