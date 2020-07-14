@@ -61,18 +61,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApprovalTest.cs" />
-    <Compile Include="Cheese.cs" />
-    <Compile Include="ConcertTickets.cs" />
-    <Compile Include="Conjured.cs" />
-    <Compile Include="DefaultCategory.cs" />
-    <Compile Include="Category.cs" />
+    <Compile Include="CheeseUpdater.cs" />
+    <Compile Include="ConcertTicketsUpdater.cs" />
+    <Compile Include="ConjuredUpdater.cs" />
+    <Compile Include="DefaultUpdater.cs" />
+    <Compile Include="ItemUpdater.cs" />
     <Compile Include="GildedRose.cs" />
-    <Compile Include="GildedRoseTest.cs" />
     <Compile Include="Item.cs" />
-    <Compile Include="Legendary.cs" />
+    <Compile Include="LegendaryUpdater.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\ApprovalTest.cs" />
+    <Compile Include="Tests\CheeseUpdaterTest.cs" />
+    <Compile Include="Tests\ConcertTicketsUpdaterTest.cs" />
+    <Compile Include="Tests\ConjuredUpdaterTest.cs" />
+    <Compile Include="Tests\DefaultUpdaterTest.cs" />
+    <Compile Include="Tests\GildedRoseTest.cs" />
+    <Compile Include="Tests\ItemUpdaterTest.cs" />
+    <Compile Include="Tests\LegendaryUpdaterTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

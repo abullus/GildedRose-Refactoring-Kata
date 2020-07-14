@@ -6,33 +6,33 @@ namespace csharp
     {
         IList<Item> Items;
 
-        public GildedRose(IList<Item> Items)
+        public GildedRose(IList<Item> items)
         {
-            this.Items = Items;
+            this.Items = items;
         }
 
         public void UpdateQuality()
         {
             foreach (var item in Items)
             {
-                categorize(item).UpdateItem(item);
+                categorizeItem(item).UpdateItem(item);
             }
         }
 
-        public Category categorize(Item item)
+        public ItemUpdater categorizeItem(Item item)
         {
             switch (item.Name)
             {
                 case "Aged Brie":
-                    return new Cheese();
+                    return new CheeseUpdater();
                 case "Sulfuras, Hand of Ragnaros":
-                    return new Legendary();
+                    return new LegendaryUpdater();
                 case "Conjured Mana Cake":
-                    return new Conjured();
+                    return new ConjuredUpdater();
                 case "Backstage passes to a TAFKAL80ETC concert":
-                    return new ConcertTickets();
+                    return new ConcertTicketsUpdater();
                 default:
-                    return new DefaultCategory();
+                    return new DefaultUpdater();
             }
         }
     }

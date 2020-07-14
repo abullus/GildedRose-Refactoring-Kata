@@ -1,6 +1,6 @@
 ﻿namespace csharp
 {
-    class Conjured : Category
+    class ConjuredUpdater : ItemUpdater
     {
         public override void UpdateItem(Item item)
         {

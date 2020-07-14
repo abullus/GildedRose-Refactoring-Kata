@@ -1,6 +1,6 @@
 ﻿namespace csharp
 {
-    public abstract class Category
+    public abstract class ItemUpdater
     {
         public void IncreaseQuality(Item item)
         {

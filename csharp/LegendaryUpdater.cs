@@ -1,6 +1,6 @@
 ﻿namespace csharp
 {
-    class Legendary : Category
+    class LegendaryUpdater : ItemUpdater
     {
         public override void UpdateItem(Item item)
         {

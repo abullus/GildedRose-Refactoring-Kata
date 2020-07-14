@@ -1,14 +1,14 @@
 ﻿namespace csharp
 {
-    public class DefaultCategory : Category
+    class CheeseUpdater : ItemUpdater
     {
         public override void UpdateItem(Item item)
         {
-            DecreaseQuality(item);
             DecreaseSellIn(item);
+            IncreaseQuality(item);
             if (item.SellIn < 0)
             {
-                DecreaseQuality(item);
+                IncreaseQuality(item);
             }
         }
     }
